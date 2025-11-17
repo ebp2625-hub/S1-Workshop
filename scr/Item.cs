@@ -1,4 +1,5 @@
 public abstract class Item : IDownloadable
 {
-    string title;
+    protected string title;
+    protected bool isBorrowed = false;
 }
