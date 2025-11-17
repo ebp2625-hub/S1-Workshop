@@ -5,7 +5,7 @@ public class Image : Item
     double fileSize;
     string dateTaken;
 
-    public Image image(int[] resolution, string fileFormat, double fileSize, string dateTaken){
+    public Image(int[] resolution, string fileFormat, double fileSize, string dateTaken){
         this.resolution = resolution;
         this.fileFormat = fileFormat;
         this.fileSize = fileSize;

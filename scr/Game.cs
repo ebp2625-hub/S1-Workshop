@@ -5,7 +5,7 @@ public class Game : Item
     string[] supportedPlatforms;
     int releaseYear;
     
-    public Game game(string genre, string publisher, string[] supportedPlatforms, int releaseYear){
+    public Game(string genre, string publisher, string[] supportedPlatforms, int releaseYear){
         this.genre = genre;
         this.publisher = publisher;
         this.supportedPlatforms = supportedPlatforms;

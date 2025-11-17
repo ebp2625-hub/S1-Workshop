@@ -7,7 +7,7 @@ public class Song : Item
     string language;
     double duration;
     
-    public Song song(string composer, string singer, string genre, string fileType, string language, double duration){
+    public Song(string composer, string singer, string genre, string fileType, string language, double duration){
         this.composer = composer;
         this.singer = singer;
         this.genre = genre;

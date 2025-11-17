@@ -8,7 +8,7 @@ public class EBook : Item
     int yearOfPublication;
     int ISBN;
     
-    public EBook ebook(string author, string language, int pageNumber, int yearOfPublication, int ISBN){
+    public EBook(string author, string language, int pageNumber, int yearOfPublication, int ISBN){
         this.author = author;
         this.language = language;
         this.pageNumber = pageNumber;
