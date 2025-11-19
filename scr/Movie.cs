@@ -6,7 +6,8 @@ public class Movie : Item
     int releaseYear;
     double duration;
 
-    public Movie movie(string director, string[] genres, string language, int releaseYear, double duration){
+    public Movie(sting title, string director, string[] genres, string language, int releaseYear, double duration) : base(title){
+        this.title = title;
         this.director = director;
         this.genres = genres;
         this.language = language;
