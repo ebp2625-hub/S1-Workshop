@@ -1,8 +1,11 @@
-public abstract class User
+namespace Domain.User
 {
-    protected string name;
-    protected int age;
-    protected string cpr;
-    
+    public abstract class User
+    {
+        protected string name;
+        protected int age;
+        protected string cpr;
 
+
+    }
 }

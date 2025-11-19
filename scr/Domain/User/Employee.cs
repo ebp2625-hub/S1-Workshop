@@ -1,5 +1,8 @@
-public class Employee : User
+namespace Domain.User
 {
-    public void addItem(){}
-    public void removeItem(){}
+    public class Employee : User
+    {
+        public void addItem(){}
+        public void removeItem(){}
+    }
 }
