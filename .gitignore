@@ -41,13 +41,7 @@
 *.su
 *.idb
 *.pdb
-bin/
-obj/
-*.user
-*.suo
-*.cache
-*.log
-*.vs/
+obj/Debug/
 
 
 # Kernel Module Compile Results
