@@ -1,4 +1,4 @@
-public class Admin : Employee
+namespace Domain.User
 {
 
     public Admin(string name, int age, string cpr){

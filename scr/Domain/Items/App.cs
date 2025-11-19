@@ -1,29 +1,32 @@
-public class App : Item
+namespace Domain.Items
 {
-    string version;
-    string publisher;
-    string[] supportedPlatforms;
-    double fileSize;
+    public class App : Item
+    {
+        string version;
+        string publisher;
+        string[] supportedPlatforms;
+        double fileSize;
 
-    public App(string title, string version, string publisher, string[] supportedPlatforms, double fileSize){
-        this.title = title;
-        this.version = version;
-        this.publisher = publisher;
-        this.supportedPlatforms = supportedPlatforms;
-        this.fileSize = fileSize;
-    }
+        public App(string title, string version, string publisher, string[] supportedPlatforms, double fileSize){
+            this.title = title;
+            this.version = version;
+            this.publisher = publisher;
+            this.supportedPlatforms = supportedPlatforms;
+            this.fileSize = fileSize;
+        }
 
-    public string GetVersion(){
-        return version;
-    }
-    public string GetPublisher(){
-        return publisher;
-    }
-    public string[] GetSupportedPlatforms(){
-        return supportedPlatforms;
-    }
-    public double GetFileSize(){
-        return fileSize;
-    }
+        public string GetVersion(){
+            return version;
+        }
+        public string GetPublisher(){
+            return publisher;
+        }
+        public string[] GetSupportedPlatforms(){
+            return supportedPlatforms;
+        }
+        public double GetFileSize(){
+            return fileSize;
+        }
 
+    }
 }

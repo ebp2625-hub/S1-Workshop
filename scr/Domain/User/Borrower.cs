@@ -1,6 +1,6 @@
 using System.Runtime.CompilerServices;
 
-public class Borrower : User
+namespace Domain.User
 {
 
     public Borrower(string name, int age, string cpr){
@@ -22,4 +22,5 @@ public class Borrower : User
     public void listCollection(){}
     public void rateItem(){}
 
+    }
 }
