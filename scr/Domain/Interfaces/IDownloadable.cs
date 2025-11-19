@@ -1,11 +1,9 @@
 using System.Net;
-namespace Domain.Interface
+
+public interface IDownloadable
 {
-    public interface IDownloadable
+    public void Download()
     {
-        public void Download()
-        {
-        
-        }
+        //downloader et eller andet lort
     }
 }
