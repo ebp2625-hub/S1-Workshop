@@ -5,7 +5,8 @@ public class Podcast : Item
     string language;
     int episodeNumber;
 
-    public Podcast(string[] hosts, string[] guests, string language, int episodeNumber){
+    public Podcast(string title, string[] hosts, string[] guests, string language, int episodeNumber) : base(title){
+        this.title = title;
         this.hosts = hosts;
         this.guests = guests;
         this.language = language;

@@ -6,4 +6,8 @@ public abstract class Item : IDownloadable
     public string GetTitle(){
         return title;
     }
+
+    public bool GetIsBorrowed(){
+        return isBorrowed;
+    }
 }
