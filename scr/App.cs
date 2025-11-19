@@ -5,7 +5,7 @@ public class App : Item
     string[] supportedPlatforms;
     double fileSize;
 
-    public App(string title, string version, string publisher, string[] supportedPlatforms, double fileSize) : base(title){
+    public App(string title, string version, string publisher, string[] supportedPlatforms, double fileSize){
         this.title = title;
         this.version = version;
         this.publisher = publisher;
