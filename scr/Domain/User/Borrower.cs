@@ -2,6 +2,7 @@ using System.Runtime.CompilerServices;
 
 namespace Domain.User
 {
+    class Borrower : User{
 
     public Borrower(string name, int age, string cpr){
         this.name = name;
@@ -23,4 +24,5 @@ namespace Domain.User
     public void rateItem(){}
 
     }
+
 }
