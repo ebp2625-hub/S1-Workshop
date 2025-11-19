@@ -1,8 +1,11 @@
 using System.Runtime.CompilerServices;
 
-public class Borrower : User
+namespace Domain.User
 {
-    public void listCollection(){}
-    public void rateItem(){}
+    public class Borrower : User
+    {
+        public void listCollection(){}
+        public void rateItem(){}
 
+    }
 }

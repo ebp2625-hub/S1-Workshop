@@ -1,31 +1,34 @@
-public class Image : Item
+namespace Domain.Items
 {
-    int[] resolution;
-    string fileFormat;
-    double fileSize;
-    string dateTaken;
+    public class Image : Item
+    {
+        int[] resolution;
+        string fileFormat;
+        double fileSize;
+        string dateTaken;
 
-    public Image(string title, int[] resolution, string fileFormat, double fileSize, string dateTaken){
-        this.title = title;
-        this.resolution = resolution;
-        this.fileFormat = fileFormat;
-        this.fileSize = fileSize;
-        this.dateTaken = dateTaken;
-    }
+        public Image(string title, int[] resolution, string fileFormat, double fileSize, string dateTaken){
+            this.title = title;
+            this.resolution = resolution;
+            this.fileFormat = fileFormat;
+            this.fileSize = fileSize;
+            this.dateTaken = dateTaken;
+        }
 
-    public int[] GetResolution(){
-        return resolution;
-    }
+        public int[] GetResolution(){
+            return resolution;
+        }
 
-    public string GetFileFormat(){
-        return fileFormat;
-    }
+        public string GetFileFormat(){
+            return fileFormat;
+        }
 
-    public double GetFileSize(){
-        return fileSize;
-    }
+        public double GetFileSize(){
+            return fileSize;
+        }
 
-    public string GetDateTaken(){
-        return dateTaken;
+        public string GetDateTaken(){
+            return dateTaken;
+        }
     }
 }

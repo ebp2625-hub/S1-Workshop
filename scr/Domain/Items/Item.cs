@@ -1,13 +1,18 @@
-public abstract class Item : IDownloadable
+using Domain.Interface;
+
+namespace Domain.Items
 {
-    protected string title;
-    protected bool isBorrowed = false;
+    public abstract class Item : IDownloadable
+    {
+        protected string title;
+        protected bool isBorrowed = false;
 
-    public string GetTitle(){
-        return title;
-    }
+        public string GetTitle(){
+            return title;
+        }
 
-    public bool GetIsBorrowed(){
-        return isBorrowed;
+        public bool GetIsBorrowed(){
+            return isBorrowed;
+        }
     }
 }

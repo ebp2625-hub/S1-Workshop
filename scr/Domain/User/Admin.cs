@@ -1,7 +1,10 @@
-public class Admin : Employee
+namespace Domain.User
 {
-    //getters and setter for all types of users 
-    public void getUser(){}
-    public void removeUser(){}
-    
+    public class Admin : Employee
+    {
+        //getters and setter for all types of users 
+        public void getUser(){}
+        public void removeUser(){}
+
+    }
 }
