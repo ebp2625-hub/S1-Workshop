@@ -1,5 +1,6 @@
 namespace Domain.User
 {
+    class Employee : User{
 
     public Employee(string name, int age, string cpr){
         this.name = name;
@@ -19,4 +20,5 @@ namespace Domain.User
 
     public void addItem(){}
     public void removeItem(){}
+    }
 }
