@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\olive\\OneDrive - Syddansk Universitet\\UNI\\S1-Workshop\\scr\\scr.csproj": {}
+    "C:\\Users\\julie\\Documents\\S1-Workshop\\scr\\scr.csproj": {}
   },
   "projects": {
-    "C:\\Users\\olive\\OneDrive - Syddansk Universitet\\UNI\\S1-Workshop\\scr\\scr.csproj": {
+    "C:\\Users\\julie\\Documents\\S1-Workshop\\scr\\scr.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\olive\\OneDrive - Syddansk Universitet\\UNI\\S1-Workshop\\scr\\scr.csproj",
+        "projectUniqueName": "C:\\Users\\julie\\Documents\\S1-Workshop\\scr\\scr.csproj",
         "projectName": "scr",
-        "projectPath": "C:\\Users\\olive\\OneDrive - Syddansk Universitet\\UNI\\S1-Workshop\\scr\\scr.csproj",
-        "packagesPath": "C:\\Users\\olive\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\olive\\OneDrive - Syddansk Universitet\\UNI\\S1-Workshop\\scr\\obj\\",
+        "projectPath": "C:\\Users\\julie\\Documents\\S1-Workshop\\scr\\scr.csproj",
+        "packagesPath": "C:\\Users\\julie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\julie\\Documents\\S1-Workshop\\scr\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\olive\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\julie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
