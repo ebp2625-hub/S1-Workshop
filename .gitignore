@@ -41,6 +41,14 @@
 *.su
 *.idb
 *.pdb
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+*.vs/
+
 
 # Kernel Module Compile Results
 *.mod*
